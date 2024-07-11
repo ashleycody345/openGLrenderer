@@ -10,11 +10,11 @@
 
 class Shader{
 private:
-	unsigned int ID = 0; // references ID for shaderprogram
 
 
 public:
 	Shader(const char* vertexPath, const char* fragmentPath); // input strings referencing filenames to have as input for shaders
+	unsigned int ID = 0; // references ID for shaderprogram
 
 	void use();
 	void setBool(const std::string &name, bool value) const;
