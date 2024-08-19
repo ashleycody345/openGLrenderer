@@ -40,8 +40,8 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="vertexShader" />
-    <None Include="fragmentShader" />
+    <None Include="vertexShader.glsl" />
+    <None Include="fragmentShader.glsl" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="wall.jpg">
